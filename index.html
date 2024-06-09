@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: -75px;
+            border: 5px solid #fff;
+        }
+        .intro {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .intro h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 2.5em;
+        }
+        .intro p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人主页</h1>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-image">
+            <h1>您的姓名</h1>
+            <p>职业 | 兴趣爱好 | 其他信息</p>
+        </div>
+        <div class="section">
+            <h2>关于我</h2>
+            <div class="card">
+                <p>这里是关于您的详细介绍。您可以分享您的背景、经验和兴趣爱好等信息。</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>我的项目</h2>
+            <div class="card">
+                <h3>项目名称</h3>
+                <p>项目描述。您可以在这里介绍您的项目、工作或任何您想展示的内容。</p>
+                <a href="#">查看详情</a>
+            </div>
+            <div class="card">
+                <h3>项目名称</h3>
+                <p>项目描述。您可以在这里介绍您的项目、工作或任何您想展示的内容。</p>
+                <a href="#">查看详情</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>联系方式</h2>
+            <div class="card">
+                <p>您可以通过以下方式联系我：</p>
+                <ul>
+                    <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>LinkedIn: <a href="#">您的LinkedIn链接</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 您的姓名. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
